@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+body {
+    background-color: rgb(237, 233, 229);
+}
+
+.container {
+    max-width: 800px;
+    margin: 70px auto;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgb(0, 0, 0, 0.4);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.ilon {
+    width: 10vh;
+    border-radius: 100%;
+}
+
+
+.ilon-name {
+    font-family: cursive;
+    margin-top: 10px
+}
+.money {
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    background-color: rgba(0, 198, 0, 0.783);
+    box-shadow: 0px 0px 4px rgb(0, 0, 0, 0.4);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0px 0px 0px;
+}
+
+.product-item {
+    width: 32%;
+    box-shadow: 0px 0px 4px rgb(0, 0, 0, 0.4);
+    padding: 15px;
+}
+
+.price {
+    color: green;
+    margin-top: 10px;
+    font-family: monospace;
+}
+
+.product-img {
+    width: 80%;
+    height: 16vh;
+    object-fit: contain;
+    user-select: none;
+}
+
+.product-item input {
+    width: 30%;
+    text-align: center;
+    padding: 3px 0px;
+}
+
+.buttuns {
+    margin-top: 10px;
+}
+
+.buttuns button {
+    border: none;
+    color: white;
+
+    padding: 5px 10px;
+    font-family: monospace;
+}
+
+.sell {
+    background-color: red;
+}
+.buy {
+    background-color: green;
+}
