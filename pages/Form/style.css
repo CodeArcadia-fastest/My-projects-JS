@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(251, 249, 249);
+}
+
+.cointainer {
+    display: flex;
+    height: 99vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#user {
+    height: 12vh;
+    border-radius: 100%;
+}
+
+form {
+    max-width: 800px;
+    max-height: 900px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 0px rgb(136, 133, 133);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 60px 30px 70px 40px;
+    background-color: white;
+}
+
+input {
+    width: 75%;
+    border: 1px solid rgb(211, 211, 211);
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 5px;
+    height: 5vh;
+    outline: none;
+    font-family: sans-serif;
+}
+
+.login {
+    margin-bottom: 20px;
+    margin-left: -45px
+}
+
+.eye {
+    height: 4vh;
+    vertical-align: middle;
+}
+
+button {
+    width: 92%;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 5px;
+    height: 5vh;
+    font-family: sans-serif;
+    background-color: rgb(9, 188, 9);
+    border-radius: 7px;
+    border: none; 
+    color: white;
+    font-weight: 800;
+
+}
+
+a {
+    color: rgb(9, 188, 9);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color:  rgb(9, 136, 9);
+}
+
+input:focus {
+    border: 1px solid rgb(9, 188, 9);
+}

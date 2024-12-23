@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    overflow: hidden;
+}
+.game-display{
+    color: white;
+    height: 100vh;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.letter-number{
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    background-color: #333;
+    align-items: center;
+    
+}
+.main-display{
+    height: 90vh;
+    background-color: #555;
+    position: relative;
+    text-align: left;
+    width: 99.9%;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    background-color: #333;
+    align-items: center;
+}
+.main-display span{
+    position: absolute;
+    animation: move 4s forwards ease-in;
+}
+@keyframes move{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 89vh;
+display: none;
+    }
+}
+
+.viver {
+   position: absolute;
+   font-size: 25px;
+   color: white;
+   background-color: black;
+   width: 4vw;
+   height: 6vh;
+   z-index: 999;
+   bottom: 0;
+}

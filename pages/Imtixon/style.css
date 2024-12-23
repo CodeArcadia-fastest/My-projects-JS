@@ -1,0 +1,54 @@
+nav {
+    display: flex;
+    height: 4vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+section {
+    display: flex;
+    height: 96vh;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 30%;
+    border: 2px solid black;
+    height: 40vh;
+    position: relative;
+    background-color: black;
+}
+
+.rgb {
+    height: 4vh;
+    width: 100%;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    justify-content: center;
+}

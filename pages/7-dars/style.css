@@ -1,0 +1,36 @@
+body {
+    background-color: #333;
+    color: white;
+}
+
+
+.box {
+    text-align: center;
+}
+
+.box h1:nth-child(1) {
+    font-size: 40px;
+}
+
+.box h1:nth-child(2) {
+    font-size: 100px;
+    margin-top: -20px;
+}
+
+.number {
+    background-color: #999;
+    height: 20vh;
+    width: 10vw;
+    margin: auto;
+    border-radius: 100px;
+    position: relative;
+    top: -30px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 70px 0px 0px 0px;
+    font-size: 50px;
+    overflow: hidden;
+}
+.javob {
+    text-align: center;
+}
